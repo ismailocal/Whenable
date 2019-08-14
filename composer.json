@@ -1,5 +1,14 @@
 {
     "name": "ismailocal/whenable",
+    "description": "Php when, then, else pattern and whenable trait",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "whenable",
+        "when",
+        "then",
+        "else"
+    ],
     "authors": [
         {
             "name": "İsmail Öcal",
