@@ -1,0 +1,15 @@
+{
+    "name": "ismailocal/untitled",
+    "authors": [
+        {
+            "name": "İsmail Öcal",
+            "email": "ismailocal@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ismailocal\\Whenable\\": "src/"
+        }
+    },
+    "require": {}
+}
