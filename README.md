@@ -33,3 +33,16 @@ $user->when(function (){
     log($this->name +' not active user!')
 });
 ~~~
+
+Example Usage Without Trait
+~~~ php
+$user = new User(1, 'ismailocal');
+
+\Ismailocal\Whenable\Whenable::when(function () use($user){
+    return $user->active;
+})->then(function () use($user){
+    $user->setPassive();
+})->else(function () use($user){
+    log($user->name +' not active user!')
+});
+~~~
